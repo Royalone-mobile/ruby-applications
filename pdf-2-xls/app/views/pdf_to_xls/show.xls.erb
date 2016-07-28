@@ -1,0 +1,10 @@
+<table>
+<%@response.each do |res|%>
+	<tr>
+		<% if res.count > 0
+			res.each do |r| %>
+			<td> <%="#{r}     "%></td>
+		<%end
+		end%>	
+	</tr>
+<%end%>	

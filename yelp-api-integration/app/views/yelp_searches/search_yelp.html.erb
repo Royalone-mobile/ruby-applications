@@ -1,0 +1,45 @@
+<div class="col-md-10 col-md-offset-1">
+  <div class="page-header">
+    <h1>Search Results : San Francisco</h1>
+    <p class="pull-right" style="margin-top:-42px"> 
+    <a href="/"><button type="submit" class="btn btn-primary">Back to Search</button> </a>
+  </div>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Phone</th>
+        <th>Ratings</th>
+        <th>Display Address</th>
+        <th>Yelp Id</th>
+        <th>Display Review details</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% if !@search_result.blank?%>
+        <% @search_result.each do |search| %>
+          <tr>
+            <td><%=search.name%></td>
+            <td><%=search.phone%></td>
+            <td><%=search.rating%></td>
+            <% add_arr = eval(search.address)%>
+            <td><%=add_arr.to_sentence%></td>
+            <td><%=search.yelp_id%></td>
+            <td>
+              <a href="/yelp_searches/display_reviews/<%=search.id%>">Reviews</a>
+            </td>
+          </tr>
+        <%end%>
+      <%else%>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td> No Record Found</td>
+          <td></td>
+          <td></td>
+        </tr> 
+      <%end%>
+    </tbody>
+  </table>
+</div>

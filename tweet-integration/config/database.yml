@@ -1,0 +1,11 @@
+
+development:
+  host:    localhost
+  adapter: postgresql
+  encoding: unicode
+  database: Tweet
+  pool: 5
+  username: postgres	
+  password: akanksha
+
+ 

@@ -1,0 +1,3 @@
+== README
+
+The Application describes the integration of Yelp API in a Rails app to get the Businesses and reviews related to those businesses in "San Fransisco".

@@ -1,0 +1,11 @@
+var data='';
+data+='<table>';
+	<%@res.each do |res|%>
+		data+='<tr>';
+			<%res.each do |r| %>
+				data+='<td>'+ "<%=r%>"+'</td>';
+			<%end%>	
+		data+='</tr>';
+	<%end%>	
+data+='</table>';
+$("div#data_page").html(data);

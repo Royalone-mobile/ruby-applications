@@ -1,0 +1,27 @@
+<div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse"></div>
+    </div>
+</nav>
+<br/>
+
+<div id="page-wrapper">
+  <h1 class="page-header">Requests</h1>
+    <div class="col-lg-4">
+      <div class="panel panel-default">
+          <div class="panel-heading">
+              Click on one of the following requests and see the request details.
+          </div>
+          <div class="panel-body">
+            <h4>Requests List</h4>
+              <ol>
+                <% @requests.each do |req|%>
+                  <li><a href="/<%=DEFAULT_URL%>/<%=params[:id]%>/requests/<%=req.id%>"> Request Id:<%=req.id%></a>
+                    &nbsp &nbsp &nbsp 
+                   <span>Request Date:<%=req.request_date.strftime("%d %B %Y")%></span> 
+                  </li>
+                <%end %> 
+              </ol>
+          </div>
+        </div>
+    </div>
+</div>

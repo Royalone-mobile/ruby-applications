@@ -1,0 +1,8 @@
+<div class="panel-body">
+	<div id="flash">
+	  <% flash.each do |key, value| -%>
+	      <div id="flash_<%= key %>" class="<%= key %>"><p style="color:green; font-size: 17px;"><%=raw value %></p></div>  
+	  <% end %>
+	</div>
+</div>
+
