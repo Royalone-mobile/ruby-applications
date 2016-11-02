@@ -108,16 +108,3 @@ If there's any validation or any other error in payment refund, then all the err
   }
 }
 ```
-
-
-## Contact 
-
-If you found any issue in the Gem then do not forgot to [create an issue](https://github.com/kartiksolves/koduc-stripe/issues) in Github.
-
-If you have any query, need support or advice just DROP us a line and we’ll be in touch very soon.
-
-Email: support@koduc.com
-
-You can also contact us at +91-120-4540178
-
-We’d love to hear from you! :) :)

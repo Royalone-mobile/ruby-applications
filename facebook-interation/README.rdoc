@@ -5,10 +5,8 @@ The application describes the authentication of user using Facebook API and shar
 == Description
 The application is developed using Ruby on Rails. The application fully describes how a user can be authorised using Facebook API (Sign In using Facebook account) and Shares the details entered on currently active facebook account.
 
-It is developed in june 2016 by KSolves team with the help of valuable contributors.
-
 == Working URL
-KSolves Facebook API : http://ksfacebook.herokuapp.com/
+Facebook API : http://ksfacebook.herokuapp.com/
 
 == Configuration required
 
@@ -63,17 +61,3 @@ KSolves Facebook API : http://ksfacebook.herokuapp.com/
 * The redirect url can be declared while making the request of sharing.
 
 * The session is destroyed after clicking on the Sign out link.
-
-== Queries and Issues 
-
-Your valuable queries and suggestions are welcomed. Please report the issues on GitHub at https://github.com/ksplindia/ksolves-facebook/issues
-  
-== Contact 
-
-If you have any query, need support or advice just DROP us a line and we’ll be in touch very soon.
-
-Email: support@koduc.com
-
-You can also contact us at +91-120-4540178
-
-We’d love to hear from you! :) :)

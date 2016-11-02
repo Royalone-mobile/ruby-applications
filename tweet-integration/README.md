@@ -60,17 +60,3 @@ url="http://ajax.googleapis.com/ajax/services/search/images?v=1.0&q=#{search_str
 
 * You can also click on the Sign Out link before posting the tweet on twitter account.
 
-## Queries and Issues 
-
-Your valuable queries and suggestions are welcomed. Please report the issues on GitHub at https://github.com/kartiksolves/KSolves-Tweet
-
-## Contact 
-
-If you have any query, need support or advice just DROP us a line and we’ll be in touch very soon.
-
-Email: support@koduc.com
-
-You can also contact us at +91-120-4540178
-
-We’d love to hear from you! :) :)
-

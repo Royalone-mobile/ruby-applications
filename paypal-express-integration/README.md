@@ -11,15 +11,7 @@ KoducExpressPaypal is a simple gem used for fulfilling the requirement of one ti
 
 It is developed for the usage in Ruby on Rails web applications and integrates as a Rails plugin.
 
-It is developed in November 2015 by [Koduc](http://koduc.com/) team with the help of valuable contributors.
-
 ## Installation
-
-### From Git
-
-Check out the latest source from git using:
-
-	git clone https://github.com/kartiksolves/koduc-paypal-express.git
 
 if you're using Bundler, just add the following to your Gemfile:
 
@@ -183,17 +175,3 @@ obj.ks_refund
 ## Important points
 * In case the response is failure refer the [Paypal Errors](https://developer.paypal.com/docs/classic/api/errorcodes/) for more details.
 * All the parameters should be passed in string.
-
-## Queries and Issues 
-
-Your valuable queries and suggestions are welcomed. Please report the issues on GitHub at https://github.com/kartiksolves/koduc-paypal-express 
-
-## Contact 
-
-If you have any query, need support or advice just DROP us a line and we’ll be in touch very soon.
-
-Email: support@koduc.com
-
-You can also contact us at +91-120-4540178
-
-We’d love to hear from you! :) :)
